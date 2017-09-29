@@ -1,0 +1,28 @@
+.RecipeDetail {
+    grid-area: detail;
+}
+
+.RecipeDetail > h1 {
+    font-size: 3em;
+}
+
+.RecipeDetail.default p {
+    font-size: 1.7em;
+    font-weight: lighter;
+}
+
+.RecipeDetail > button {
+    background: transparent;
+    border: 2px solid var(--primary-background);
+    border-radius: 3px;
+    font-size: 1.8em;
+    margin: 0 50px;
+}
+
+.Ingredient {
+    text-align: left;
+    padding: 0 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.8em;
+    font-weight: 100;
+}

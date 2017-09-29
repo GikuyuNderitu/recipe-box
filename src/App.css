@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  --primary-background: rgba(20, 140, 190, 1);
+  --primary-color: #fefefe;
+  display: grid;
+  grid-template-areas: "header header header"
+                       "aside detail detail";
+  grid-template-columns: 4fr 5fr 5fr;
+  grid-template-rows: 60px 1fr;
+  height: 100vh;
+}
+
+.Header {
+  grid-area: header;
+  background: var(--primary-background);
+  color: var(--primary-color);
+  padding: 10px 0;
+}
+
+.Header h1 {
+  margin: 0;
+}
